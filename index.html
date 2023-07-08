@@ -14,6 +14,10 @@
       vr-mode-ui="enabled: false"
       arjs="sourceType: webcam; videoTexture: true; debugUIEnabled: false;"
     >
+      <a-box
+        material="color: yellow"
+        gps-new-entity-place="latitude: <your-latitude>; longitude: <your-longitude>"
+      />
       <a-text
         value="This content will always face you."
         look-at="[gps-camera]"
