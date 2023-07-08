@@ -1,35 +1,42 @@
 {
-  "name": "ar-occlusion",
-  "version": "0.0.2",
-  "description": "ar-occlusion",
-  "main": "src/main.js",
-  "scripts": {
-    "build": "webpack",
-    "start": "webpack-dev-server --host 0.0.0.0 --https",
-    "lint-fix": "eslint --ext .js --fix src"
-  },
-  "author": "Tentone",
-  "license": "MIT",
-  "keywords": [
-    "three",
-    "ar",
-    "webxr"
-  ],
-  "dependencies": {
-    "cannon-es-debugger": "~0.1.0",
-    "cannon-es": "~0.15.1",
-    "three": "~0.124.0",
-    "three-to-cannon": "~3.1.0",
-    "troika-three-text": "~0.35.0"
-  },
-  "devDependencies": {
-    "copy-webpack-plugin": "~6.0.2",
-    "html-webpack-plugin": "~4.3.0",
-    "webpack": "~4.43.0",
-    "webpack-cli": "~3.3.12",
-    "webpack-dev-server": "~3.11.0",
-    "raw-loader": "~4.0.1",
-    "eslint": "~7.18.0",
-    "eslint-plugin-import": "~2.22.0"
-  }
+	"name": "test-ar",
+	"version": "1.0.0",
+	"description": "- Web-based framework for environment-aware rendering and interaction in augmented reality based on [WebXR](https://www.w3.org/TR/webxr/) using [three.js](https://threejs.org/) - The framework implements realistic rendering of 3D objects, handles with geometry occlusions, matches the lighting of the environment, casts shadows, and provides physics interaction with real-world objects. - Target the web environment and have designed our solution to work on a vast range of devices as, monocular camera setups or devices with dedicated higher quality depth sensors. - Single application while being capable of obtaining over 20 frames per second even on middle-range devices. - [Demonstration video](https://www.youtube.com/watch?v=H6-eCIkYRuA) of the features in the framework. - Based on the experimental [WebXR AR](https://immersive-web.github.io/webxr-ar-module/) draft  API available in Chrome 88+   - [Lighting Estimation](https://immersive-web.github.io/lighting-estimation/)   - [Depth Sensing Module](https://immersive-web.github.io/depth-sensing/)   - [Hit Test Module](https://immersive-web.github.io/hit-test/)",
+	"main": "src/main.js",
+	"directories": {
+		"doc": "docs"
+	},
+	"dependencies": {
+		"cannon-es-debugger": "~0.1.0",
+		"cannon-es": "~0.15.1",
+		"three": "~0.124.0",
+		"three-to-cannon": "~3.1.0",
+		"troika-three-text": "~0.35.0"
+	},
+	"devDependencies": {
+		"copy-webpack-plugin": "~6.0.2",
+		"html-webpack-plugin": "~4.3.0",
+		"webpack": "~4.43.0",
+		"webpack-cli": "~3.3.12",
+		"webpack-dev-server": "~3.11.0",
+		"raw-loader": "~4.0.1",
+		"eslint": "~7.18.0",
+		"eslint-plugin-import": "~2.22.0"
+	},
+	"scripts": {
+		"build": "webpack",
+		"start": "webpack-dev-server --host 0.0.0.0 --https",
+		"lint-fix": "eslint --ext .js --fix src"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Rus-Lan-R/test-ar.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Rus-Lan-R/test-ar/issues"
+	},
+	"homepage": "https://github.com/Rus-Lan-R/test-ar#readme"
 }
