@@ -19,7 +19,9 @@
         gps-new-entity-place="latitude: <your-latitude>; longitude: <your-longitude>"
         position="2000 1000 1000"
       />
-      <a-marker preset="hiro">ffff</a-marker>
+      <a-marker markerhandler type="barcode" value="7"
+        ><a-box position="0 0.5 0" color="yellow"></a-box
+      ></a-marker>
       <a-text
         value="This content will always face you."
         look-at="[gps-camera]"
